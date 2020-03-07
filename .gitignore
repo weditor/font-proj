@@ -1,0 +1,10 @@
+.vscode/
+.idea/
+__pycache/
+dist/
+*.egg-info/
+*.pyc
+*.pyo
+.git/
+.svn/
+poetry.lock
