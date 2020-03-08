@@ -7,7 +7,7 @@ from .models import FontBlock, FontImage
 class FontImageSerializer(serializers.DocumentSerializer):
     class Meta:
         model = FontImage
-        fields = "__all__"
+        exclude = ("image", )
 
 
 class FontBlockSerializer(serializers.DocumentSerializer):
